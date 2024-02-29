@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/Img/Ballons.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    
+}
+header div ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    
+}
+header div ul li a{
+    text-decoration: none;
+    color: rgb(197, 143, 77);
+    padding: 0px 5px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.logoImg{
+    margin-top: 50px;
+    width: 128px;
+    height: 128px;
+    position: static;
+    z-index: 1;
+    opacity: 0.35;
+}
+.menu{
+    width: 50%;
+    height: 100%;
+    font-size: 20px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+section img{
+    height: 500px;
+    width: 300px;
+    
+}
+section div p{
+    width: 300px;
+    margin-left: 20px;
+}
+footer{
+    margin-top: auto;
+    
+}
+footer a{
+    color: white;
+}
